@@ -1,0 +1,16 @@
+# macOS junk files
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Environment/secrets
+.env
+*.pem
+
+# Editor files
+.vscode/
+.idea/
